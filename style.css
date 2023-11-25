@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat&family=Dancing+Script&family=Marhey&family=PT+Serif:ital@1&family=Playfair+Display:ital,wght@0,600;1,400&family=Roboto:ital,wght@1,100;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(250, 249, 246);
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+margin: 0;
+padding: 0px;
+/* background-color: rgba(0, 0, 0, 0.46); */
+display: flex;
+text-align: center;
+width: 100%;
+}
+.logo{
+    padding: auto;
+    padding-left: 20px;
+    margin: 10px;
+    color: rgb(60, 9, 9);
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    font-family:'Marhey';
+}
+.links{
+    margin-left: 62%;
+    margin-top: 1.5%;
+    float: right;
+    text-align: center;
+    align-items: center;
+}
+.links a{
+    font-size: 25px;
+    margin: 18px;
+    text-decoration: none;
+    color: rgb(60, 9, 9);
+}
+.srch{
+    border: 1px solid rgb(60, 9, 9);
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+section{
+    height: 100vh;
+}
+.sec-top{
+    background-image: url(https://img.freepik.com/premium-photo/herb-spices-cooking-background_136595-562.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color:  rgb(60, 9, 9);
+    padding: 10px;
+}
+.sec-top h1{
+    margin-top: 7%;
+    font-size: 90px;
+    font-family: Agbalumo;
+}
+.sec-top h3{
+    font-family: playfair display;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 10px 2px;
+}
+.mag-o{
+    background-color: rgb(60, 9, 9);
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#main-inp{
+    width: 20%;
+    padding: 7px;
+    font-size: 16px;
+}
+.sec-top .social-icons .fa{
+    font-size: 28px;
+    margin: 10px;
+}
+.fa:hover{
+    color: black;
+}
+#section{
+    height: 140vh;
+}
+.sect{
+    height: 385vh;
+}
+.rating{
+    display: flex;
+    margin: 6px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.top-images{
+    width: 220px;
+    height: 210px;
+}
+.box{
+    margin: 9px;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+h2{
+    color: rgb(60, 9, 9);
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: Agbalumo;
+    font-weight: lighter;
+    margin: 0px 10px;
+}
+#img-foot{
+    width: 90%;
+}
+footer{
+    background-color: rgb(60, 9, 9);
+    color: white;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    padding:  50px 90px;
+}
+.footer div{
+    margin: 0px 90px;
+}
+.footer div p{
+    margin: 10px;
+}
+.footer div h5{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.foot-right{
+    float: right;
+    margin-right: 900px;
+}
+.foot{
+    color: white;
+    font-size: 50px;
+    margin-top: -10px;
+}
